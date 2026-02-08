@@ -19,6 +19,8 @@ Oura ring paywalls the data behind a subscription, but luckily you can export yo
 - **Privacy First:** Your data is stored locally in an SQLite database. It never leaves your computer unless you export it.
 - **Advanced Analytics:** Visualize trends, correlations, and deeper insights than the standard app provides. 
 
+<img width="1470" height="916" alt="Cracked Oura front page" src="https://github.com/user-attachments/assets/cda629a9-5072-4a5f-9e5d-6ddb3873c0f0" />
+
 ---
 
 ## Features
@@ -28,14 +30,25 @@ See all of your Oura ring data without subscription. Thanks to EU's right to dat
 
 **Automation that requests your data from Oura and imports it to Cracked Oura.** This populates the local database with your data. Population can also be done manually by importing a zip file from Oura that you can find in https://membership.ouraring.com/data-export. 
 
+<img width="1470" height="916" alt="Cracked Oura automation" src="https://github.com/user-attachments/assets/8aa42539-f014-4254-8885-9d6dfabf13b2" />
+<img width="1470" height="916" alt="Cracked Oura logn term charts" src="https://github.com/user-attachments/assets/6cbd5345-d81e-4000-ade0-a0ea4e21508c" />
+
+
 ### Desktop Dashboard that can be customized
 View your Sleep, Readiness, and Activity scores, etc in a desktop dashboards that is at least as good as the official Oura dashboard. The dashboards can be customized to show the data that you want to see. 
+
+<img width="1470" height="916" alt="Cracked Oura widget editor" src="https://github.com/user-attachments/assets/39103072-e176-4b13-86df-95eaacdd3ac1" />
+<img width="1470" height="916" alt="Cracked Oura layout editor" src="https://github.com/user-attachments/assets/43925f97-9d94-48aa-8b26-36a096499c0c" />
 
 ### AI Health Analyst
 Oura's own AI advisor is quite limited. It does not have access to your historical data and cannot answer questions about your health trends, because it has only a few days of data available. 
 
-Cracked Oura can leverage LLMs to analyze your health data and provide insights. This feature is still experimental and under development and will be improved in the future. 
+Cracked Oura can leverage local LLMs to analyze your health data and provide insights. 
 
+> [!NOTE]
+> This feature is still experimental, not documented, and under development and will be improved in the future. 
+
+<img width="1470" height="916" alt="Cracked Oura advisor" src="https://github.com/user-attachments/assets/e9ce6ac2-60da-486f-a01f-8cd03dce6337" />
 
 ---
 
@@ -91,5 +104,3 @@ cd frontend
 npm run build
 # Output will be in frontend/dist-electron/
 ```
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
