@@ -66,6 +66,15 @@ Cracked Oura can leverage local LLMs to analyze your health data and provide ins
 > [!NOTE]
 > Most of the features are still experimental and under development and will be improved in the future. 
 
+### Troubleshooting
+
+> **"App is damaged and can't be opened"** (macOS)
+> This is a known Gatekeeper issue because the app is not notarized by Apple.
+> To fix, move the app to your `Applications` folder and run this in Terminal:
+> ```bash
+> sudo xattr -cr "/Applications/Cracked Oura.app"
+> ```
+
 > [!NOTE]
 > This project is not affiliated with, associated with, or endorsed by Oura Health Oy. Use at your own risk.
 
