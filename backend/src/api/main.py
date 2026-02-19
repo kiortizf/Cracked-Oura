@@ -17,8 +17,6 @@ from contextlib import asynccontextmanager
 
 # Configure logging
 from backend.src.paths import get_user_data_dir
-import logging
-import os
 
 log_dir = get_user_data_dir()
 log_file = os.path.join(log_dir, "backend_debug.log")
