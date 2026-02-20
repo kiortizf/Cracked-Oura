@@ -5,17 +5,12 @@ import shutil
 import tempfile
 import json
 import traceback
-from typing import List, Optional, Any
-from datetime import date, datetime
 
-from fastapi import APIRouter, Depends, HTTPException, Query, UploadFile, File, BackgroundTasks
 from pydantic import BaseModel
 from sqlalchemy.orm import Session
-from sqlalchemy import select, func
 
 # Constants and Configuration
 from ..config import config_manager
-from ..database import get_db, SessionLocal
 from ..models import (
     Sleep, Activity, Readiness, Resilience, SleepSession, Workout, Meditation, 
     RingBattery, HeartRate, Temperature, RingConfiguration, Tag, CardiovascularAge

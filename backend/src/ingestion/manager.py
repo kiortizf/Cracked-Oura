@@ -2,7 +2,6 @@ import os
 import zipfile
 import tempfile
 import logging
-import pandas as pd
 from sqlalchemy.orm import Session
 from .base import IngestionBase
 from .processors.sleep import SleepProcessor

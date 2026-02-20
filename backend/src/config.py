@@ -2,7 +2,6 @@ import json
 import os
 import threading
 import logging
-from typing import Dict, Any, Optional
 
 from .paths import get_user_data_dir
 

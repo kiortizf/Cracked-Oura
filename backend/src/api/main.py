@@ -1,11 +1,9 @@
-from fastapi import FastAPI, BackgroundTasks, Request
 from fastapi.middleware.cors import CORSMiddleware
 from backend.src.api.routes import router
 from backend.src.database import init_db
 
 import asyncio
 import logging
-from datetime import datetime, timedelta
 from backend.src.automation import automator
 from backend.src.ingestion import OuraParser
 from backend.src.database import SessionLocal
