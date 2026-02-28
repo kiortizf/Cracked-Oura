@@ -1,10 +1,7 @@
-import pandas as pd
 import json
 import uuid
 import os
 import logging
-from datetime import datetime, date
-from typing import List, Any, Type, Optional
 from sqlalchemy.orm import Session
 from sqlalchemy.dialects.sqlite import insert
 from backend.src.models import Base

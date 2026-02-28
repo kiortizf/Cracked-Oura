@@ -1,7 +1,5 @@
-import pandas as pd
 import uuid
 import logging
-from backend.src.models import HeartRate, Temperature, RingConfiguration, Tag, CardiovascularAge, RingBattery
 from backend.src.ingestion.base import IngestionBase
 
 logger = logging.getLogger("CommonProcessor")

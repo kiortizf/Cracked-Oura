@@ -1,7 +1,4 @@
 from typing import Optional
-from datetime import date, datetime
-from sqlalchemy import String, Float, Date, DateTime, JSON, Text, Integer, Boolean
-from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
 
 class Base(DeclarativeBase):
     pass

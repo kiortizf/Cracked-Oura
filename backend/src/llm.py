@@ -1,5 +1,4 @@
 import json
-from typing import List, Dict, Any
 from langchain_ollama import ChatOllama
 from langchain_community.utilities import SQLDatabase
 from langchain_community.agent_toolkits import create_sql_agent

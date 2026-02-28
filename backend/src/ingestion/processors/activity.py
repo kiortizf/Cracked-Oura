@@ -1,8 +1,6 @@
-import pandas as pd
 import uuid
 import logging
 from datetime import datetime
-from backend.src.models import Activity, Workout, Meditation
 from backend.src.ingestion.base import IngestionBase
 
 logger = logging.getLogger("ActivityProcessor")

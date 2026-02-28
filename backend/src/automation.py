@@ -1,8 +1,6 @@
 import asyncio
 import os
 import logging
-from playwright.async_api import async_playwright, expect, Page, BrowserContext, Browser
-from typing import Optional, Dict, Any, Union
 
 from .config import config_manager
 
@@ -90,7 +88,6 @@ class OuraAutomator:
         
         try:
             # Import internal driver helpers to find the bundled Node.js
-            from playwright._impl._driver import compute_driver_executable, get_driver_env
             
             driver_executable, driver_cli = compute_driver_executable()
             env = get_driver_env()
